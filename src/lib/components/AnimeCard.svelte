@@ -42,7 +42,7 @@
     <div class="cardAnime cardAnime--skeleton {isCardTransitioning}"></div>
 {:else}
     <a
-        href="https://api.jikan.moe/v4/anime/{mal_id}"
+        href="https://1anime.one/mal/{mal_id}"
         class="cardAnime {isCardTransitioning}"
         target="_blank"
         use:tilt={{scale:1, reverse:true}}
