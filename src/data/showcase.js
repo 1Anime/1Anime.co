@@ -193,7 +193,7 @@ export default [
     },
     {
         title: "AnimeSenpai",
-        summary: "Streaming App using JIKAN Api and ANI Api. The Videos dont work atm. But enjoy",
+        summary: "Streaming App using 1Anime and ANI Api. The Videos dont work atm. But enjoy",
         imageUrl: "https://i.imgur.com/SI5xN9m.jpeg",
         url: "https://animesenpai.ascenddevs.com",
     },
@@ -211,7 +211,7 @@ export default [
     },
     {
         title: "Animedex",
-        summary: "Anime website built on top of Jikan API and Vue.js",
+        summary: "Anime website built on top of 1Anime and Vue.js",
         imageUrl: "https://i.imgur.com/6HXkrcx.png",
         url: "https://animeindex.netlify.app/",
     },
@@ -315,7 +315,7 @@ export default [
     },
     {
         title: "Kaizen Anime News",
-        summary: "Website for updated Anime Information powered by Jikan API",
+        summary: "Website for updated Anime Information powered by 1Anime",
         imageUrl: "https://i.imgur.com/AxjwZC5.png",
         url: "https://kaizen-anime-news.vercel.app/",
     },
@@ -363,7 +363,7 @@ export default [
     },
     {
         title: "AniSvelte",
-        summary: "Anime Website using SvelteKit + Jikan API",
+        summary: "Anime Website using SvelteKit + 1Anime",
         imageUrl: "https://i.imgur.com/RpKx9WH.png",
         url: "https://anilist-seven.vercel.app/",
     },
@@ -393,7 +393,7 @@ export default [
     },
     {
         title: "subete",
-        summary: "Built using Next.js 14, Tailwind CSS, and GraphQL, utilizing the Jikan API for all data.",
+        summary: "Built using Next.js 14, Tailwind CSS, and GraphQL, utilizing the 1Anime for all data.",
         imageUrl: "https://takumayumi.pages.dev/assets/2024_6-CwtxWa-t.png",
         url: "https://subete.vercel.app/",
     },

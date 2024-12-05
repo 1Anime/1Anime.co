@@ -95,7 +95,7 @@
 			>We rely on you! Support us on Patreon</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<h1>Jikan API</h1>
+				<h1>1Anime</h1>
 				<p>Jikan (時間) is an unofficial & open-source API for the <strong>“most active online anime + manga community and database”</strong> — MyAnimeList.</p>
 			</div>
 
@@ -171,7 +171,7 @@
 				<div class="type--group-heading-and-content">
 					<h2>Free & Open Source</h2>
 					<h3 style="display: flex">— all under <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />MIT Licensing</Button></h3>
-					<p>Focus on building while we keep the requests rolling. With nearly limitless quota on requests, you have the freedom to create without the need of writing/updating your own parsers or depending on limited API support. Want to launch your own private Jikan API? Go ahead.</p>
+					<p>Focus on building while we keep the requests rolling. With nearly limitless quota on requests, you have the freedom to create without the need of writing/updating your own parsers or depending on limited API support. Want to launch your own private 1Anime? Go ahead.</p>
 				</div>
 
 				<Button type="primary" url="https://github.com/jikan-me" urlTarget="_blank">

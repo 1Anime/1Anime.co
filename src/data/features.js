@@ -71,70 +71,70 @@ export default {
         {
             icon: IconCircleArrowUp,
             highlight: false,
-            onVersion: 3,
+            onVersion: 2,
             label: "Top Ranking",
             description: "Top ranking resources"
         },
         {
             icon: IconBuilding,
             highlight: false,
-            onVersion: 3,
+            onVersion: 2,
             label: "Producers",
             description: "Producer metadata and listing"
         },
         {
             icon: IconBook2,
             highlight: false,
-            onVersion: 3,
+            onVersion: 2,
             label: "Magazines",
             description: "Magazine metadata and listing"
         },
         {
             icon: IconCarouselHorizontal,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Reviews",
             description: "Anime and Manga Reviews by Users"
         },
         {
             icon: IconThumbUp,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Recommendations",
             description: "Anime and Manga Recommendations by Users"
         },
         {
             icon: IconSearch,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Advanced Search",
             description: "Advanced querying and Search powered by TypeSense"
         },
         {
             icon: IconEye,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Watch",
             description: "Latest and most popular Anime promotional and episode releases"
         },
         {
             icon: IconUsersGroup,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Clubs",
             description: "Publicly available club data"
         },
         {
             icon: IconArrowsRandom,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Random",
             description: "Query random resources"
         },
         {
             icon: IconTag,
             highlight: true,
-            onVersion: 4,
+            onVersion: 2,
             label: "Genres",
             description: "Anime and Manga Genres Listing"
         },
@@ -143,35 +143,35 @@ export default {
         {
             icon: IconHierarchy,
             highlight: false,
-            onVersion: 5,
+            onVersion: 2,
             label: "Hiyori Integraton",
             description: "Get detailed external relational mapping of anime and manga"
         },
         {
             icon: IconStack2,
             highlight: false,
-            onVersion: 5,
+            onVersion: 2,
             label: "Interest Stacks",
             description: "Interest Stacks created by Users"
         },
         {
             icon: IconBlockquote,
             highlight: false,
-            onVersion: 5,
+            onVersion: 2,
             label: "New User About",
             description: "Support the new user about pages"
         },
         {
             icon: IconArticle,
             highlight: false,
-            onVersion: 5,
+            onVersion: 2,
             label: "Articles",
             description: "Anything and everything related to articles"
         },
         {
             icon: IconBroadcast,
             highlight: false,
-            onVersion: 5,
+            onVersion: 2,
             label: "News",
             description: "Anything and everything related to industry news"
         },
