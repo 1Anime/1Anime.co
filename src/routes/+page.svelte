@@ -20,6 +20,9 @@
 	import integrations from "../data/integrations.js";
 	import ShowcaseBackground from "../lib/images/showcase-background.png";
 	import Divider from "../lib/components/Divider.svelte";
+	import InputReadOnly from "../lib/components/InputReadOnly.svelte";
+	import IntegrationCard from "../lib/components/IntegrationCard.svelte";
+	import {tooltip} from "@svelte-plugins/tooltips"
 	import {onMount} from "svelte";
 
 	let github = {};
