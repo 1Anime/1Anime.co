@@ -22,8 +22,6 @@
             </div>
 
             <div class="cardIntegrations__sub">
-                <p>{language}</p>
-                <Divider />
                 <p class="cardIntegrations__author">By <span>{author}</span></p>
             </div>
         </div>

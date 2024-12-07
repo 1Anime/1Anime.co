@@ -154,12 +154,12 @@
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
-		<div class="right">
+		<div class="left">
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
 					<h2>Free & No Ads</h2>
 					<h3 style="display: flex">— all with your help and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
-					<p>Focus on enjoying your favorite shows while we keep the streams rolling. With nearly limitless access, you have the freedom to watch without restrictions.</p>
+					<p>Our platform is community-driven, which we listen to your suggestions, and without your help, we wouldn't be alive today. Donate or help us out!</p>
 				</div>
 			</div>
 
@@ -176,7 +176,7 @@
 			</div>
 		</div>
 
-		<div class="left">
+		<div class="right">
 			<div class="type--group-heading-and-content">
 				<h2>Features</h2>
 				<p>1Anime offers a wide range of anime titles with more features coming soon.</p>
@@ -216,11 +216,6 @@
 				</BasicInfoDisplayGrouped>
 
 			</div>
-
-			<Button urlTarget="_blank" url="https://github.com/orgs/1anime/projects/2" type="primary">
-				<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-				View Roadmap
-			</Button>
 		</div>
 	</div>
 </section>
@@ -248,7 +243,7 @@
 
 			<Button url="https://github.com/1anime/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
 				<IconCirclePlus size={20} stroke={1.5} />
-				Request a new intergration
+				Request a new integration
 			</Button>
 		</div>
 
