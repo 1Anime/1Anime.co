@@ -18,7 +18,7 @@ function toggleMobileNav() {
 <div id="nav" class="navWrapper {isMinimized}">
     <nav class="nav">
         <div class="nav__top">
-            <a href="/" class="logo"><img src="https://1anime.co/logo.svg" alt="1Anime Logo"/></a>
+            <a href="/" class="logo"><img src="https://1anime.one/favicon.ico" alt="1Anime Logo"/></a>
             <div id="mobile-nav">
                 <Button type="nav-trigger" size="small"
                     callback={toggleMobileNav}
