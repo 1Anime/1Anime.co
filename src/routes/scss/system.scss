@@ -1,23 +1,23 @@
 :root {
   // Color Tokens
   --dark-background-500: #000000; // Changed to black
-  --dark-background-400: rgba(0, 0, 0, 0.8); // Added fade
-  --dark-background-300: rgba(0, 0, 0, 0.6); // Added fade
-  --dark-background-200: rgba(0, 0, 0, 0.4); // Added fade
-  --dark-background-100: rgba(0, 0, 0, 0.2); // Added fade
+  --dark-background-400: rgba(75, 0, 130, 0.8); // Dark purple fade
+  --dark-background-300: rgba(75, 0, 130, 0.6); // Dark purple fade
+  --dark-background-200: rgba(75, 0, 130, 0.4); // Dark purple fade
+  --dark-background-100: rgba(75, 0, 130, 0.2); // Dark purple fade
   --dark-background-000: rgba(0, 0, 0, 0); // Fully transparent
   --dark-background-button-primary-default: var(--primary-500);
   --dark-background-button-primary-hover: var(--primary-600);
   --dark-background-language-dotnet: #491756;
-  --dark-primary-900: #000000; // Changed to black
-  --dark-primary-800: rgba(0, 0, 0, 0.8); // Added fade
-  --dark-primary-700: rgba(0, 0, 0, 0.6); // Added fade
-  --dark-primary-600: rgba(0, 0, 0, 0.4); // Added fade
-  --dark-primary-500: rgba(0, 0, 0, 0.2); // Added fade
-  --dark-primary-400: rgba(0, 0, 0, 0.1); // Added fade
-  --dark-primary-300: rgba(0, 0, 0, 0.05); // Added fade
-  --dark-primary-200: rgba(0, 0, 0, 0.02); // Added fade
-  --dark-primary-100: rgba(0, 0, 0, 0.01); // Added fade
+  --dark-primary-900: #4B0082; // Dark purple
+  --dark-primary-800: rgba(75, 0, 130, 0.8); // Dark purple fade
+  --dark-primary-700: rgba(75, 0, 130, 0.6); // Dark purple fade
+  --dark-primary-600: rgba(75, 0, 130, 0.4); // Dark purple fade
+  --dark-primary-500: rgba(75, 0, 130, 0.2); // Dark purple fade
+  --dark-primary-400: rgba(75, 0, 130, 0.1); // Dark purple fade
+  --dark-primary-300: rgba(75, 0, 130, 0.05); // Dark purple fade
+  --dark-primary-200: rgba(75, 0, 130, 0.02); // Dark purple fade
+  --dark-primary-100: rgba(75, 0, 130, 0.01); // Dark purple fade
   --dark-primary-000: rgba(0, 0, 0, 0); // Fully transparent
   --dark-typography-100: var(--primary-100);
   --dark-typography-200: var(--primary-200);
