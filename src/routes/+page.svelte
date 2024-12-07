@@ -119,7 +119,7 @@
 					No Account Required
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					url="https://discord.1anime.com"
+					url="https://discord.gg/1anime"
 					urlTarget="_blank"
 					description="Join our Discord server for support and community discussions."
 				>
@@ -181,7 +181,7 @@
 			</div>
 
 			<Banner type="info" size="small">
-				1Anime supports non-authenticated streaming. This means, you can watch without creating an account.
+				1Anime is ad-free, and community-driven. so enjoy using 1Anime!.
 			</Banner>
 
 			<div>
