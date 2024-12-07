@@ -180,7 +180,7 @@
 				Explore All Features
 			</Button>
 		</div>
-
+</section>
 		<section class="integrationsWrapper" id="integrations">
 			<div class="integrations">
 				<div class="left">
