@@ -7,7 +7,6 @@ import {
     IconBuilding,
     IconCalendarEvent,
     IconCarouselHorizontal,
-    IconCarouselHorizontalFilled,
     IconCircleArrowUp,
     IconDeviceTv,
     IconExternalLink,
@@ -29,151 +28,135 @@ export default {
             highlight: false,
             onVersion: 1,
             label: "Anime",
-            description: "All available anime data"
+            description: "All available anime data on 1Anime"
         },
         {
             icon: IconBook,
             highlight: false,
             onVersion: 1,
             label: "Manga",
-            description: "All available manga data"
-
+            description: "All available manga data on 1Anime"
         },
         {
             icon: IconUserSquare,
             highlight: false,
             onVersion: 1,
             label: "Characters",
-            description: "All available character data"
+            description: "All available character data from 1Anime"
         },
         {
             icon: IconUserPentagon,
             highlight: false,
             onVersion: 1,
             label: "People",
-            description: "All available person data"
+            description: "All available person data related to 1Anime"
         },
         {
             icon: IconUserCircle,
             highlight: false,
             onVersion: 2,
             label: "Users",
-            description: "Publicly available user data"
+            description: "Publicly available user data on 1Anime"
         },
         {
             icon: IconCalendarEvent,
             highlight: false,
             onVersion: 2,
             label: "Seasons",
-            description: "Seasonal anime, season list, currently airing, and upcoming"
-
+            description: "Seasonal anime, season list, currently airing, and upcoming on 1Anime"
         },
         {
             icon: IconCircleArrowUp,
             highlight: false,
             onVersion: 2,
             label: "Top Ranking",
-            description: "Top ranking resources"
+            description: "Top ranking anime resources on 1Anime"
         },
         {
             icon: IconBuilding,
             highlight: false,
             onVersion: 2,
             label: "Producers",
-            description: "Producer metadata and listing"
+            description: "Producer metadata and listing for 1Anime content"
         },
         {
             icon: IconBook2,
             highlight: false,
             onVersion: 2,
             label: "Magazines",
-            description: "Magazine metadata and listing"
+            description: "Magazine metadata and listing related to 1Anime"
         },
         {
             icon: IconCarouselHorizontal,
             highlight: true,
             onVersion: 2,
             label: "Reviews",
-            description: "Anime and Manga Reviews by Users"
+            description: "Anime and Manga Reviews by Users on 1Anime"
         },
         {
             icon: IconThumbUp,
             highlight: true,
             onVersion: 2,
             label: "Recommendations",
-            description: "Anime and Manga Recommendations by Users"
+            description: "Anime and Manga Recommendations by Users on 1Anime"
         },
         {
             icon: IconSearch,
             highlight: true,
             onVersion: 2,
             label: "Advanced Search",
-            description: "Advanced querying and Search powered by TypeSense"
+            description: "Advanced querying and Search powered by TypeSense for 1Anime"
         },
         {
             icon: IconEye,
             highlight: true,
             onVersion: 2,
             label: "Watch",
-            description: "Latest and most popular Anime promotional and episode releases"
+            description: "Latest and most popular Anime promotional and episode releases on 1Anime"
         },
         {
             icon: IconUsersGroup,
             highlight: true,
             onVersion: 2,
             label: "Clubs",
-            description: "Publicly available club data"
+            description: "Publicly available club data on 1Anime"
         },
         {
             icon: IconArrowsRandom,
             highlight: true,
             onVersion: 2,
             label: "Random",
-            description: "Query random resources"
+            description: "Query random anime resources on 1Anime"
         },
         {
             icon: IconTag,
             highlight: true,
             onVersion: 2,
             label: "Genres",
-            description: "Anime and Manga Genres Listing"
+            description: "Anime and Manga Genres Listing on 1Anime"
         },
     ],
     upcoming: [
         {
             icon: IconHierarchy,
-            highlight: false,
+            highlight: true,
             onVersion: 2,
-            label: "Hiyori Integraton",
-            description: "Get detailed external relational mapping of anime and manga"
+            label: "AI Apps",
+            description: "Innovative AI applications for enhanced anime experience on 1Anime"
         },
         {
             icon: IconStack2,
-            highlight: false,
+            highlight: true,
             onVersion: 2,
-            label: "Interest Stacks",
-            description: "Interest Stacks created by Users"
+            label: "New Integrations",
+            description: "Exciting new integrations to expand 1Anime's capabilities"
         },
         {
             icon: IconBlockquote,
             highlight: false,
             onVersion: 2,
             label: "New User About",
-            description: "Support the new user about pages"
-        },
-        {
-            icon: IconArticle,
-            highlight: false,
-            onVersion: 2,
-            label: "Articles",
-            description: "Anything and everything related to articles"
-        },
-        {
-            icon: IconBroadcast,
-            highlight: false,
-            onVersion: 2,
-            label: "News",
-            description: "Anything and everything related to industry news"
+            description: "Support the new user about pages on 1Anime"
         },
     ]
 }

@@ -48,7 +48,7 @@
 	<title>1Anime - Your Anime and Manga Streaming App</title>
 
 	<!-- SEO/OGP -->
-	<meta name="author" content="@yourUsername">
+	<meta name="author" content="@1AnimeApp">
 	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2023, characters, episodes, series">
 	<meta name="description" content="1Anime is your go-to platform for streaming anime and manga online.">
 	<meta name="image" content="https://i.imgur.com/eUveNoj.png">
@@ -58,8 +58,8 @@
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="1Anime - Your Anime and Manga Streaming App">
 	<meta name="twitter:description" content="1Anime is your go-to platform for streaming anime and manga online.">
-	<meta name="twitter:creator" content="@yourUsername">
-	<meta name="twitter:site" content="@yourUsername">
+	<meta name="twitter:creator" content="@1AnimeApp">
+	<meta name="twitter:site" content="@1AnimeApp">
 	<meta name="twitter:image:src" content="https://i.imgur.com/eUveNoj.png">
 	<meta name="twitter:image:alt" content="1Anime brand image">
 	<meta name="twitter:card" content="summary_large_image">
@@ -90,7 +90,7 @@
 			<InlineBanner
 					type="patreon"
 					url="https://patreon.com/1anime"
-			>We rely on you! Support us on Patreon</InlineBanner>
+			>We rely on you! Support us by donating!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
 				<h1>1Anime</h1>
@@ -99,12 +99,10 @@
 
 			<BasicInfoDisplayGrouped>
 				<BasicInfoDisplay
-					urlTarget="_blank"
-					url="https://github.com/1anime/1anime"
 					description="Visit the 1Anime GitHub repository."
 				>
-					<IconExternalLink size={20} stroke={1.5} />
-					GitHub Repository
+					<IconStar size={20} stroke={1.5} />
+					No Ads
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
 					url="#integrations"
@@ -129,19 +127,17 @@
 					Community Support
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					description="We serve millions of streams every week!"
+					description="Lots of anime and manga available!"
 				>
 					<IconChartLine size={20} stroke={1.5} />
-					Millions of Streams
+					Large Library
 				</BasicInfoDisplay>
 			</BasicInfoDisplayGrouped>
 
 			<ButtonGroup>
-				<Button type="primary" url="#features">Learn more</Button>
-
 				<Button type="secondary-outline" urlTarget="_blank" url="https://docs.1anime.com/">
 					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-					Get started
+					Watch now
 				</Button>
 			</ButtonGroup>
 		</div>
@@ -159,15 +155,10 @@
 		<div class="left">
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
-					<h2>Free & Open Source</h2>
-					<h3 style="display: flex">— all under <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />MIT Licensing</Button></h3>
+					<h2>Free & No Ads</h2>
+					<h3 style="display: flex">— all with your help and our <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
 					<p>Focus on enjoying your favorite shows while we keep the streams rolling. With nearly limitless access, you have the freedom to watch without restrictions.</p>
 				</div>
-
-				<Button type="primary" url="https://github.com/1anime" urlTarget="_blank">
-					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-					Visit GitHub organization
-				</Button>
 			</div>
 
 			<div
@@ -176,20 +167,9 @@
 			>
 				<div class="overlay">
 					<div class="type--group-heading-and-content">
-						<h2>⚡ Powered by 1Anime</h2>
-						<p>1Anime was launched in 2023 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using 1Anime and even <strong>add your own</strong> there!</p>
+						<h2>⚡ Powered by 1Anime Community</h2>
+						<p>1Anime was launched in March 2024 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using 1Anime and even <strong>add your own</strong> there!</p>
 					</div>
-
-					<ButtonGroup>
-						<Button url="/showcase" type="secondary-outline" size="full-width">
-							View all apps
-							<IconArrowNarrowRight size={20} stroke={1.5} />
-						</Button>
-						<Button url="https://github.com/1anime/website/edit/master/src/data/showcase.js" type="tertiary" size="full-width">
-							<IconCirclePlus size={20} stroke={1.5} />
-							Add my project
-						</Button>
-					</ButtonGroup>
 				</div>
 			</div>
 		</div>
@@ -251,52 +231,12 @@
 
 <section class="howItWorksWrapper" id="how-it-works">
 	<div class="howItWorks">
-		<div class="type--group-heading-and-content type--center">
-			<h2>How does this work?</h2>
-			<p>1Anime streams content from various sources.<br>The service consists of a user-friendly interface and a vast library of anime.</p>
-		</div>
-
-		<div class="diagram">
-			<div class="diagram__flow">
-				<div class="cardDiagramInfo">
-					<div class="cardDiagramInfo__meta">
-						<div class="type--group-heading-and-subheading">
-							<h6 class="cardDiagramInfo__title">1Anime Streaming Service</h6>
-							<p class="cardDiagramInfo__subtitle">— Your go-to anime platform</p>
-						</div>
-
-						{#if github.contributors}
-							<div class="cardDiagramInfo__repoStats">
-								<Button urlTarget="_blank" url="https://github.com/1anime/1anime" type="link">
-									<IconStar size={20} stroke={1.5} />
-									{github.contributors.length} contributors
-								</Button>
-							</div>
-						{/if}
-					</div>
-
-					<Divider type="line"></Divider>
-
-					<p class="cardDiagramInfo__about">
-						1Anime provides a seamless streaming experience for anime lovers. Enjoy a wide range of titles and genres, all in one place.
-					</p>
-
-					<ButtonGroup type="stacked">
-						<Button urlTarget="_blank" url="https://docs.1anime.com/" type="primary" size="full-width">
-							<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-							View Documentation
-						</Button>
-					</ButtonGroup>
-				</div>
-
-			</div>
-
 			<div class="diagram__contributorsWrapper">
 				<div class="diagram__contributors">
 					<div class="diagram__contributorsBody">
 						<IconInfoCircle size={20} stroke={1.5} />
 						<p>
-							You can help us by contributing and reporting issues - so we can keep this platform running smoothly.
+							You can help us by donating and reporting issues - so we can keep this platform running smoothly.
 						</p>
 					</div>
 
@@ -335,35 +275,13 @@
 						<p>Thanks to avid contributors, there are a multitude of integrations available so you can easily use it with your favorite platforms.</p>
 					</div>
 				</div>
-
-				<div class="integrations__about">
-					<div class="integrations__aboutIcon">
-						<IconGitCommit size={35} stroke={1.5} />
-					</div>
-
-					<div>
-						<h6>Create or contribute to an integration</h6>
-						<p>Get involved by writing or maintaining an integration in the platform of your choice.</p>
-					</div>
-				</div>
-
-				<div class="integrations__about">
-					<div class="integrations__aboutIcon">
-						<IconApi size={35} stroke={1.5} />
-					</div>
-
-					<div>
-						<h6>OpenAPI 3.1 Specifications</h6>
-						<p>Generate integrations on the fly as our documentation is built on <Button type="link" url="https://raw.githubusercontent.com/1anime/1anime/master/storage/api-docs/api-docs.json" urlTarget="blank">OpenAPI 3.1</Button> Specs.</p>
-					</div>
-				</div>
 			</div>
 
 			<Divider type="line"></Divider>
 
 			<Button url="https://github.com/1anime/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
 				<IconCirclePlus size={20} stroke={1.5} />
-				Add your integration here
+				Request a new intergration
 			</Button>
 		</div>
 
