@@ -192,11 +192,6 @@
 							description={feature.description}
 						>
 							<svelte:component this={feature.icon} size={20} stroke={1.5} />
-							{#if feature.highlight}
-								<Chip type="outline-gradient-light" size="small">v{feature.onVersion}</Chip>
-							{:else}
-								<Chip type="outline" size="small">v{feature.onVersion}</Chip>
-							{/if}
 							{feature.label}
 						</BasicInfoDisplay>
 					{/each}

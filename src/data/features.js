@@ -140,21 +140,21 @@ export default {
         {
             icon: IconHierarchy,
             highlight: true,
-            onVersion: 2,
+            onVersion: 3,
             label: "AI Apps",
             description: "Innovative AI applications for enhanced anime experience on 1Anime"
         },
         {
             icon: IconStack2,
             highlight: true,
-            onVersion: 2,
+            onVersion: 3,
             label: "New Integrations",
             description: "Exciting new integrations to expand 1Anime's capabilities"
         },
         {
             icon: IconBlockquote,
             highlight: false,
-            onVersion: 2,
+            onVersion: 3,
             label: "New User About",
             description: "Support the new user about pages on 1Anime"
         },

@@ -8,7 +8,7 @@
     $: lastEvent = null;
 
     onMount(() => {
-        fetch('https://1anime.com') // Updated to 1Anime site
+        fetch('https://1anime.one') // Updated to 1Anime site
             .then(response => {
                 if (response.status === 200) {
                     health = "Healthy"; // Set health to healthy if status is 200
