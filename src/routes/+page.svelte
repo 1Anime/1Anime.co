@@ -149,26 +149,6 @@
 					Visit GitHub organization
 				</Button>
 			</div>
-			<div
-				class="showcaseCover margin--top-64"
-				style="background-image: url({ShowcaseBackground})"
-			>
-				<div class="overlay">
-					<div class="type--group-heading-and-content">
-						<h2>⚡ Powered</h2>
-						<p>Jikan was launched in late 2017 and has grown rapidly since. It is now handling over 25+ million requests weekly, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using Jikan and even <strong>add your own</strong> there!</p>
-					</div>
-					<ButtonGroup>
-						<Button url="/showcase" type="secondary-outline" size="full-width">
-							View all apps
-							<IconArrowNarrowRight size={20} stroke={1.5} />
-						</Button>
-						<Button url="https://github.com/jikan-me/website/edit/master/src/data/showcase.js" type="tertiary" size="full-width">
-							<IconCirclePlus size={20} stroke={1.5} />
-							Add my project
-						</Button>
-					</ButtonGroup>
-				</div>
 			</div>
 		</div>
 		<div class="right">
@@ -201,8 +181,58 @@
 			</Button>
 		</div>
 
-		<div class="right">
-			<div class="type--group-heading-and-content">
+		<section class="integrationsWrapper" id="integrations">
+			<div class="integrations">
+				<div class="left">
+					<div class="type--group-heading-and-content">
+						<h2>Seamless integration with the languages you use and love.</h2>
+					</div>
+		
+					<div class="integrations__body margin--top-64">
+						<div class="integrations__about">
+							<div class="integrations__aboutIcon">
+								<IconHeartHandshake size={35} stroke={1.5} />
+							</div>
+		
+							<div>
+								<h6>By the community, for the community</h6>
+								<p>Thanks to avid contributors, there are a multitude of wrappers available so you can easily use it with the language of your choice.</p>
+							</div>
+						</div>
+		
+						<div class="integrations__about">
+							<div class="integrations__aboutIcon">
+								<IconGitCommit size={35} stroke={1.5} />
+							</div>
+		
+							<div>
+								<h6>Create or contribute to an integration</h6>
+								<p>Get involved by writing or maintaining an integration in the programming language of your choice.</p>
+							</div>
+						</div>
+		
+						<div class="integrations__about">
+							<div class="integrations__aboutIcon">
+								<IconApi size={35} stroke={1.5} />
+							</div>
+		
+							<div>
+								<h6>OpenAPI 3.1 Specifications</h6>
+								<p>Generate wrappers on the fly as our documentation is built on <Button type="link" url="https://raw.githubusercontent.com/jikan-me/jikan-rest/master/storage/api-docs/api-docs.json" urlTarget="blank">OpenAPI 3.1</Button> Specs.</p>
+							</div>
+						</div>
+					</div>
+		
+					<Divider type="line"></Divider>
+		
+					<Button url="https://github.com/jikan-me/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
+						<IconCirclePlus size={20} stroke={1.5} />
+						Add your integration here
+					</Button>
+				</div>
+		
+				<div class="right">
+								<div class="type--group-heading-and-content">
 				<h2>Community Integrations</h2>
 				<p>1Anime supports various integrations to enhance your experience.</p>
 			</div>
