@@ -1,24 +1,24 @@
 :root {
   // Color Tokens
-  --dark-background-500: #000000; // Changed to black
-  --dark-background-400: rgba(75, 0, 130, 0.8); // Dark purple fade
-  --dark-background-300: rgba(75, 0, 130, 0.6); // Dark purple fade
-  --dark-background-200: rgba(75, 0, 130, 0.4); // Dark purple fade
-  --dark-background-100: rgba(75, 0, 130, 0.2); // Dark purple fade
-  --dark-background-000: rgba(0, 0, 0, 0); // Fully transparent
+  --dark-background-500: #3C4558;
+  --dark-background-400: #262F43;
+  --dark-background-300: #1F2635;
+  --dark-background-200: #161922;
+  --dark-background-100: #121419;
+  --dark-background-000: #0F1115;
   --dark-background-button-primary-default: var(--primary-500);
   --dark-background-button-primary-hover: var(--primary-600);
   --dark-background-language-dotnet: #491756;
-  --dark-primary-900: #1A0033; // Darkest purple
-  --dark-primary-800: rgba(75, 0, 130, 0.8); // Dark purple fade
-  --dark-primary-700: rgba(75, 0, 130, 0.6); // Dark purple fade
-  --dark-primary-600: rgba(75, 0, 130, 0.4); // Dark purple fade
-  --dark-primary-500: rgba(75, 0, 130, 0.2); // Dark purple fade
-  --dark-primary-400: rgba(75, 0, 130, 0.1); // Dark purple fade
-  --dark-primary-300: rgba(75, 0, 130, 0.05); // Dark purple fade
-  --dark-primary-200: rgba(75, 0, 130, 0.02); // Dark purple fade
-  --dark-primary-100: rgba(75, 0, 130, 0.01); // Dark purple fade
-  --dark-primary-000: rgba(0, 0, 0, 0); // Fully transparent
+  --dark-primary-900: #23002c;
+  --dark-primary-800: #590766;
+  --dark-primary-700: #440c7f;
+  --dark-primary-600: #5d1198;
+  --dark-primary-500: #5f18b1;
+  --dark-primary-400: #9c49d0;
+  --dark-primary-300: #6F9BE7;
+  --dark-primary-200: #A1C4F7;
+  --dark-primary-100: #DBE6FF;
+  --dark-primary-000: #F1F6FF;
   --dark-typography-100: var(--primary-100);
   --dark-typography-200: var(--primary-200);
   --dark-typography-300: #99A8C9;
@@ -79,7 +79,7 @@
 }
 
 @mixin typeBodyContent($bold: false) {
-  font-family: 'Archivo', sans-serif;
+  font-family: 'Inter', sans-serif;
 
   @if($bold) {
     font-weight: bold;
@@ -87,7 +87,7 @@
 }
 
 @mixin typeBodyMono($bold: false) {
-  font-family: 'Archivo', sans-serif; // Changed to use Archivo only
+  font-family: 'Archivo', sans-serif;
 
   @if($bold) {
     font-weight: bold;
