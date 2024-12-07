@@ -4,6 +4,7 @@
 	import {
 		IconArrowDownLeft,
 		IconPackages,
+		IconApi,
 		IconBrandDiscord, IconHeartHandshake, IconCirclePlus, IconGitCommit
 	} from "@tabler/icons-svelte";
 	import BasicInfoDisplay from "../lib/components/DataDisplay/BasicInfoDisplay.svelte";
