@@ -136,7 +136,7 @@
 
 			<ButtonGroup>
 				<Button type="primary" urlTarget="_blank" url="https://1anime.one/">
-					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
 					  <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
 					</svg>
 					Watch now
@@ -154,7 +154,7 @@
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
-		<div class="left">
+		<div class="right">
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
 					<h2>Free & No Ads</h2>
@@ -169,14 +169,14 @@
 			>
 				<div class="overlay">
 					<div class="type--group-heading-and-content">
-						<h2>⚡ Powered by 1Anime Community</h2>
+						<h2>Made with 💖 by 1Anime Community</h2>
 						<p>1Anime was launched in March 2024 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="right">
+		<div class="left">
 			<div class="type--group-heading-and-content">
 				<h2>Features</h2>
 				<p>1Anime offers a wide range of anime titles with more features coming soon.</p>
