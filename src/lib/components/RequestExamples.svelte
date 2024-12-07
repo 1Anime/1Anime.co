@@ -102,7 +102,7 @@ function updateRequestUrl() {
             interval={20}
             unwriteInterval={5}
             on:done={apiCall}
-    ><a href={requestUrl} target="_blank"><code>https://1anime.one</code></a></Typewriter>
+    ><a href={requestUrl} target="_blank"><code>{requestUrl}</code></a></Typewriter>
     {#if showDuration && requestDuration > 0}
         <span transition:fly={{delay:0,duration:150,x:-32}} class="duration">Response Time: {requestDuration}ms</span>
     {/if}

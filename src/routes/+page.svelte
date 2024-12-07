@@ -3,9 +3,8 @@
 	import Button from "../lib/components/Button.svelte";
 	import {
 		IconArrowDownLeft,
-		IconArrowNarrowRight,
 		IconPackages,
-		IconBrandDiscord, IconHeartHandshake, IconCirclePlus
+		IconBrandDiscord, IconHeartHandshake, IconCirclePlus, IconGitCommit
 	} from "@tabler/icons-svelte";
 	import BasicInfoDisplay from "../lib/components/DataDisplay/BasicInfoDisplay.svelte";
 	import Chip from "../lib/components/Chip.svelte";
@@ -18,11 +17,8 @@
 	import RequestExamples from "../lib/components/RequestExamples.svelte";
 	import features from "../data/features.js";
 	import integrations from "../data/integrations.js";
-	import ShowcaseBackground from "../lib/images/showcase-background.png";
 	import Divider from "../lib/components/Divider.svelte";
-	import InputReadOnly from "../lib/components/InputReadOnly.svelte";
 	import IntegrationCard from "../lib/components/IntegrationCard.svelte";
-	import {tooltip} from "@svelte-plugins/tooltips"
 	import {onMount} from "svelte";
 
 	let github = {};
