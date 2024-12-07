@@ -1,28 +1,28 @@
 :root {
   // Color Tokens
-  --dark-background-500: #3C4558;
-  --dark-background-400: #302643;
-  --dark-background-300: #2a1f35;
-  --dark-background-200: #101010;
-  --dark-background-100: #000000;
-  --dark-background-000: #110f15;
+  --dark-background-500: #2C2F36; // Updated for better contrast
+  --dark-background-400: #23272A; // Updated for better contrast
+  --dark-background-300: #1E2125; // Updated for better contrast
+  --dark-background-200: #181A1B; // Updated for better contrast
+  --dark-background-100: #121314; // Updated for better contrast
+  --dark-background-000: #0C0D0E; // Updated for better contrast
   --dark-background-button-primary-default: var(--primary-500);
   --dark-background-button-primary-hover: var(--primary-600);
-  --dark-background-language-dotnet: #491756;
-  --dark-primary-900: #23002c;
-  --dark-primary-800: #590766;
-  --dark-primary-700: #440c7f;
-  --dark-primary-600: #5d1198;
-  --dark-primary-500: #5f18b1;
-  --dark-primary-400: #9c49d0;
-  --dark-primary-300: #9d6fe7;
-  --dark-primary-200: #A1C4F7;
-  --dark-primary-100: #DBE6FF;
+  --dark-background-language-dotnet: #5A2D6D; // Updated for better visibility
+  --dark-primary-900: #1A001A; // Updated for better contrast
+  --dark-primary-800: #4B0066; // Updated for better contrast
+  --dark-primary-700: #3A0077; // Updated for better contrast
+  --dark-primary-600: #5D1198;
+  --dark-primary-500: #6F1DB1; // Updated for better visibility
+  --dark-primary-400: #A05BCF; // Updated for better visibility
+  --dark-primary-300: #A77CE7; // Updated for better visibility
+  --dark-primary-200: #B8D4F7; // Updated for better visibility
+  --dark-primary-100: #E0E6FF; // Updated for better visibility
   --dark-primary-000: #F1F6FF;
   --dark-typography-100: var(--primary-100);
   --dark-typography-200: var(--primary-200);
-  --dark-typography-300: #99A8C9;
-  --dark-typography-400: #8998B8;
+  --dark-typography-300: #B0B8C9; // Updated for better contrast
+  --dark-typography-400: #A0A8B8; // Updated for better contrast
   --dark-border-patreon-gradient-color-start: #FF424D;
   --dark-border-patreon-gradient-color-stop: var(--dark-primary-500);
   --dark-border-default-gradient-color-start: var(--dark-primary-200);
@@ -55,7 +55,7 @@
     --background-000: var(--dark-background-000);
     --background-button-primary-default: var(--dark-background-button-primary-default);
     --background-button-primary-hover: var(--dark-background-button-primary-hover);
-    --background-language-dotnet: var(background-language-dotnet);
+    --background-language-dotnet: var(--dark-background-language-dotnet);
     --primary-900: var(--dark-primary-900);
     --primary-800: var(--dark-primary-800);
     --primary-700: var(--dark-primary-700);
