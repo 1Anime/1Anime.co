@@ -8,7 +8,7 @@ import MalHeartBeat from "./MalHeartBeat.svelte";
     <div class="footer__body">
         <div class="footer__content">
             <div class="footer__brand">
-                <a href="https://1anime.co" class="logo"><img src="https://1anime.co/logo.svg" alt="1Anime Logo" width="77" height="32"/></a>
+                <a href="https://1anime.info" class="logo"><img src="https://1anime.info/logo.svg" alt="1Anime Logo" width="77" height="32"/></a>
                 <p>Watch Anime and Read Manga without ads for FREE.</p>
 
                 <MalHeartBeat />

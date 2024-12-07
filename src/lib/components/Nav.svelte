@@ -1,6 +1,6 @@
 <script>
 import Button from "./Button.svelte";
-import {IconArrowDownLeft, IconBrandDiscord, IconBrandGithub, IconBrandPatreon, IconMenu, IconX} from "@tabler/icons-svelte";
+import {IconArrowDownLeft, IconBrandDiscord, IconBrandGithub, IconTipJar, IconMenu, IconX} from "@tabler/icons-svelte";
 import Chip from "./Chip.svelte";
 
 let scrollY;
@@ -18,7 +18,7 @@ function toggleMobileNav() {
 <div id="nav" class="navWrapper {isMinimized}">
     <nav class="nav">
         <div class="nav__top">
-            <a href="/" class="logo"><img src="https://1anime.co/logo.svg" alt="1Anime Logo" width="77" height="32"/></a>
+            <a href="/" class="logo"><img src="https://1anime.info/logo.svg" alt="1Anime Logo" width="77" height="32"/></a>
             <div id="mobile-nav">
                 <Button type="nav-trigger" size="small"
                     callback={toggleMobileNav}
@@ -48,7 +48,7 @@ function toggleMobileNav() {
                 </div>
 
                 <div class="links">
-                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://1anime.info/docs/contribute"><IconBrandPatreon size={20} stroke={1.5} /></Button>
+                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://1anime.info/docs/contribute"><IconTipJar size={20} stroke={1.5} /></Button>
                     <Button type="nav-icon-link" size="small" urlTarget="_blank" url="http://discord.gg/1anime"><IconBrandDiscord size={20} stroke={1.5} /></Button>
                     <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://github.com/1Anime"><IconBrandGithub size={20} stroke={1.5} /></Button>
                 </div>
