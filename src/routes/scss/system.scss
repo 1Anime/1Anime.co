@@ -1,29 +1,29 @@
 :root {
   // Color Tokens
-  --dark-background-500: #2C2F36; // Updated for better contrast
-  --dark-background-400: #23272A; // Updated for better contrast
-  --dark-background-300: #1E2125; // Updated for better contrast
-  --dark-background-200: #181A1B; // Updated for better contrast
-  --dark-background-100: #121314; // Updated for better contrast
-  --dark-background-000: #0C0D0E; // Updated for better contrast
+  --dark-background-500: #3C4558; // Keep original for contrast
+  --dark-background-400: #302643; // Keep original for contrast
+  --dark-background-300: #2a1f35; // Keep original for contrast
+  --dark-background-200: #101010; // Keep original for contrast
+  --dark-background-100: #000000; // Black
+  --dark-background-000: #110f15; // Black-purple
   --dark-background-button-primary-default: var(--primary-500);
   --dark-background-button-primary-hover: var(--primary-600);
-  --dark-background-language-dotnet: #5A2D6D; // Updated for better visibility
-  --dark-primary-900: #1A001A; // Updated for better contrast
-  --dark-primary-800: #4B0066; // Updated for better contrast
-  --dark-primary-700: #3A0077; // Updated for better contrast
-  --dark-primary-600: #5D1198;
-  --dark-primary-500: #6F1DB1; // Updated for better visibility
-  --dark-primary-400: #A05BCF; // Updated for better visibility
-  --dark-primary-300: #A77CE7; // Updated for better visibility
-  --dark-primary-200: #B8D4F7; // Updated for better visibility
-  --dark-primary-100: #E0E6FF; // Updated for better visibility
-  --dark-primary-000: #F1F6FF;
-  --dark-typography-100: var(--primary-100);
-  --dark-typography-200: var(--primary-200);
-  --dark-typography-300: #B0B8C9; // Updated for better contrast
-  --dark-typography-400: #A0A8B8; // Updated for better contrast
-  --dark-border-patreon-gradient-color-start: #FF424D;
+  --dark-background-language-dotnet: #491756; // Keep original for contrast
+  --dark-primary-900: #23002c; // Keep original for contrast
+  --dark-primary-800: #590766; // Keep original for contrast
+  --dark-primary-700: #440c7f; // Keep original for contrast
+  --dark-primary-600: #5d1198; // Keep original for contrast
+  --dark-primary-500: #5f18b1; // Keep original for contrast
+  --dark-primary-400: #9c49d0; // Keep original for contrast
+  --dark-primary-300: #9d6fe7; // Keep original for contrast
+  --dark-primary-200: #A1C4F7; // Keep original for contrast
+  --dark-primary-100: #DBE6FF; // Keep original for contrast
+  --dark-primary-000: #F1F6FF; // Keep original for contrast
+  --dark-typography-100: #FFFFFF; // White for better contrast
+  --dark-typography-200: #E0E0E0; // Light gray for better contrast
+  --dark-typography-300: #99A8C9; // Keep original for contrast
+  --dark-typography-400: #8998B8; // Keep original for contrast
+  --dark-border-patreon-gradient-color-start: #FF424D; // Keep original for contrast
   --dark-border-patreon-gradient-color-stop: var(--dark-primary-500);
   --dark-border-default-gradient-color-start: var(--dark-primary-200);
   --dark-border-default-gradient-color-stop: var(--dark-primary-500);
