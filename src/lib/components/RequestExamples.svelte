@@ -89,6 +89,20 @@ function getFakeUrl(url) {
 }
 </script>
 
+<div class="request">
+    <Chip type="request" size="small">Speed Test</Chip>
+    <Typewriter
+            mode="loopOnce"
+            keepCursorOnFinish={true}
+            interval={20}
+            unwriteInterval={5}
+            on:done={apiCall}
+    ><code></code></Typewriter>
+    {#if showDuration && requestDuration > 0}
+        <span transition:fly={{delay:0,duration:150,x:-32}} class="duration">{requestDuration}ms</span>
+    {/if}
+</div>
+
 <div class="cards">
     {#if !showCards}
         {#each {length: 6} as _, i}
