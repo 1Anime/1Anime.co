@@ -9,8 +9,6 @@ import {fly} from "svelte/transition";
 
 let requests = [
     "https://api.jikan.moe/v4/anime?q=bleach&sfw",
-    "https://api.jikan.moe/v4/anime?q=新世紀&sfw",
-    "https://api.jikan.moe/v4/seasons/now?sfw",
     "https://api.jikan.moe/v4/top/anime?sfw",
     "https://api.jikan.moe/v4/seasons/upcoming",
     "https://api.jikan.moe/v4/top/anime?type=movie",
@@ -36,9 +34,6 @@ onMount(() => {
         let randomSeason = ['spring', 'summer', 'winter', 'fall'][math.randomInteger(0, 3)]
         requests.push("https://api.jikan.moe/v4/seasons/"+randomYear+"/"+randomSeason+"?sfw")
     }
-
-    let today = new Date().toLocaleString('en-us', {weekday:'long'}).toLowerCase()
-    requests.push("https://api.jikan.moe/v4/schedules/"+today+"?sfw");
 
     requests = funcs.shuffle(requests);
     apiCall(); // Call the API when the component mounts

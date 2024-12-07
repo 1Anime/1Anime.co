@@ -49,7 +49,7 @@
 
 	<!-- SEO/OGP -->
 	<meta name="author" content="@1AnimeApp">
-	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2023, characters, episodes, series">
+	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2024, 2025, characters, episodes, series">
 	<meta name="description" content="1Anime is your go-to platform for streaming anime and manga online.">
 	<meta name="image" content="https://i.imgur.com/eUveNoj.png">
 	<meta itemprop="name" content="1Anime - Your Anime and Manga Streaming App">
