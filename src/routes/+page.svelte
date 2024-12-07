@@ -108,10 +108,10 @@
 					Ad-Free
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					description="Access a wide range of anime and manga data."
+					description="Access a wide range of anime and manga library."
 				>
 					<IconCirclePlus size={20} stroke={1.5} />
-					Vast Database
+					Vast Library
 				</BasicInfoDisplay>
 			</BasicInfoDisplayGrouped>
 
@@ -134,6 +134,45 @@
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
+				<div class="left">
+			<div class="open-source">
+				<div class="type--group-heading-and-content">
+					<h2>Free & Open Source</h2>
+					<h3 style="display: flex">— all under <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />MIT Licensing</Button></h3>
+					<p>Focus on building while we keep the requests rolling. With nearly limitless quota on requests, you have the freedom to create without the need of writing/updating your own parsers or depending on limited API support. Want to launch your own private Jikan API? Go ahead.</p>
+				</div>
+
+				<Button type="primary" url="https://github.com/jikan-me" urlTarget="_blank">
+					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
+					Visit GitHub organization
+				</Button>
+			</div>
+
+			<div
+				class="showcaseCover margin--top-64"
+				style="background-image: url({ShowcaseBackground})"
+			>
+				<div class="overlay">
+					<div class="type--group-heading-and-content">
+						<h2>⚡ Powered by Jikan</h2>
+						<p>Jikan was launched in late 2017 and has grown rapidly since. It is now handling over 25+ million requests weekly, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using Jikan and even <strong>add your own</strong> there!</p>
+					</div>
+
+					<ButtonGroup>
+						<Button url="/showcase" type="secondary-outline" size="full-width">
+							View all apps
+							<IconArrowNarrowRight size={20} stroke={1.5} />
+						</Button>
+						<Button url="https://github.com/jikan-me/website/edit/master/src/data/showcase.js" type="tertiary" size="full-width">
+							<IconCirclePlus size={20} stroke={1.5} />
+							Add my project
+						</Button>
+					</ButtonGroup>
+				</div>
+			</div>
+		</div>
+
+
 		<div class="right">
 			<div class="type--group-heading-and-content">
 				<h2>Why Choose 1Anime?</h2>
@@ -182,12 +221,13 @@
 								<p>Thanks to our contributors and people who helped our community provide a site made for the community.</p>
 							</div>
 						</div>
+					</div>
 		
 					<Divider type="line"></Divider>
 		
 					<Button url="https://github.com/jikan-me/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
 						<IconCirclePlus size={20} stroke={1.5} />
-						Request a integration
+						Request a intergration!
 					</Button>
 				</div>
 		
