@@ -51,7 +51,7 @@ onMount(() => {
         {/if}
         {#each supporters.powered_by as poweredBy}
             <a href={poweredBy.url} target="_blank">
-                <img src={JetbrainsLogo} height={35} width={35} alt={poweredBy.name} />
+                <img src="https://storage.ko-fi.com/cdn/logomarkLogo.png" height={35} width={35} alt={poweredBy.name} />
                 <code>{poweredBy.name}</code>
             </a>
         {/each}

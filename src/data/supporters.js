@@ -32,7 +32,6 @@ export default  {
         "Gin",
         "NBZKD",
         "Rimu",
-        "CoenB",
         "Brainrot",
         "Draëcal Daëdrian",
     ],
