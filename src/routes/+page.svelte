@@ -149,17 +149,6 @@
 	<Marquee />
 </section>
 
-<section>		<div class="diagram__contributorsWrapper">
-	<div class="diagram__contributors">
-		<div class="diagram__contributorsBody">
-			<IconInfoCircle size={20} stroke={1.5} />
-			<p>
-				If the app is unstable, Please contact support or try again later.
-			</p>
-		</div>
-	</div>
-</div>
-</section>
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
@@ -233,7 +222,6 @@
 		</div>
 	</div>
 </section>
-
 <section class="integrationsWrapper" id="integrations">
 	<div class="integrations">
 		<div class="left">
