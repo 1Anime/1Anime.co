@@ -241,7 +241,7 @@
 
 			<Divider type="line"></Divider>
 
-			<Button url="https://github.com/1anime/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
+			<Button url="#" type="secondary-outline" size="full-width">
 				<IconCirclePlus size={20} stroke={1.5} />
 				Request a new integration
 			</Button>
