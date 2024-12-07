@@ -66,7 +66,7 @@
 	<meta name="og:title" content="1Anime - Your Anime and Manga Streaming App">
 	<meta name="og:description" content="1Anime is your go-to platform for streaming anime and manga online.">
 	<meta name="og:image" content="https://i.imgur.com/eUveNoj.png">
-	<meta name="og:url" content="https://1anime.info">
+	<meta name="og:url" content="https://1anime.com">
 	<meta name="og:site_name" content="1Anime - Your Anime and Manga Streaming App">
 	<meta name="og:locale" content="en_US">
 	<meta name="og:type" content="website">
@@ -86,16 +86,6 @@
 
 <section class="hero">
 	<main>
-		<div class="diagram__contributorsWrapper">
-			<div class="diagram__contributors">
-				<div class="diagram__contributorsBody">
-					<IconInfoCircle size={20} stroke={1.5} />
-					<p>
-						If the app is unstable, Please contact support or try again later.
-					</p>
-				</div>
-			</div>
-		</div>
 		<div class="left">
 			<InlineBanner
 					type="patreon"
@@ -129,7 +119,7 @@
 					No Account Required
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					url="https://discord.1anime.info"
+					url="https://discord.1anime.com"
 					urlTarget="_blank"
 					description="Join our Discord server for support and community discussions."
 				>
@@ -145,7 +135,7 @@
 			</BasicInfoDisplayGrouped>
 
 			<ButtonGroup>
-				<Button type="primary" urlTarget="_blank" url="https://docs.1anime.info/">
+				<Button type="primary" urlTarget="_blank" url="https://docs.1anime.com/">
 					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
 					Watch now
 				</Button>
@@ -159,6 +149,17 @@
 	<Marquee />
 </section>
 
+<section>		<div class="diagram__contributorsWrapper">
+	<div class="diagram__contributors">
+		<div class="diagram__contributorsBody">
+			<IconInfoCircle size={20} stroke={1.5} />
+			<p>
+				If the app is unstable, Please contact support or try again later.
+			</p>
+		</div>
+	</div>
+</div>
+</section>
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
@@ -232,6 +233,7 @@
 		</div>
 	</div>
 </section>
+
 <section class="integrationsWrapper" id="integrations">
 	<div class="integrations">
 		<div class="left">
