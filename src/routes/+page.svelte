@@ -99,7 +99,7 @@
 
 			<BasicInfoDisplayGrouped>
 				<BasicInfoDisplay
-					description="Visit the 1Anime GitHub repository."
+					description="Watch without ads."
 				>
 					<IconStar size={20} stroke={1.5} />
 					No Ads
@@ -135,7 +135,7 @@
 			</BasicInfoDisplayGrouped>
 
 			<ButtonGroup>
-				<Button type="secondary-outline" urlTarget="_blank" url="https://docs.1anime.com/">
+				<Button type="primary" urlTarget="_blank" url="https://docs.1anime.com/">
 					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
 					Watch now
 				</Button>
