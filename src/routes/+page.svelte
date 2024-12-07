@@ -134,20 +134,6 @@
 
 <section class="featuresWrapper" id="features">
 	<div class="features">
-		<div class="left">
-			<div class="open-source">
-				<div class="type--group-heading-and-content">
-					<h2>Free & No ads</h2>
-					<h3 style="display: flex">— all powered by our <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
-					<p>Making the best yet, community-managed Anime and Manga platform. without ads, for free.</p>
-				</div>
-				<Button type="primary" url="https://github.com/jikan-me" urlTarget="_blank">
-					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-					Visit GitHub organization
-				</Button>
-			</div>
-			</div>
-		</div>
 		<div class="right">
 			<div class="type--group-heading-and-content">
 				<h2>Why Choose 1Anime?</h2>
@@ -182,7 +168,7 @@
 			<div class="integrations">
 				<div class="left">
 					<div class="type--group-heading-and-content">
-						<h2>Seamless integration with the languages you use and love.</h2>
+						<h2>Seamless integration with the apps and extensions you use and love.</h2>
 					</div>
 		
 					<div class="integrations__body margin--top-64">
@@ -193,38 +179,15 @@
 		
 							<div>
 								<h6>By the community, for the community</h6>
-								<p>Thanks to avid contributors, there are a multitude of wrappers available so you can easily use it with the language of your choice.</p>
+								<p>Thanks to our contributors and people who helped our community provide a site made for the community.</p>
 							</div>
 						</div>
-		
-						<div class="integrations__about">
-							<div class="integrations__aboutIcon">
-								<IconGitCommit size={35} stroke={1.5} />
-							</div>
-		
-							<div>
-								<h6>Create or contribute to an integration</h6>
-								<p>Get involved by writing or maintaining an integration in the programming language of your choice.</p>
-							</div>
-						</div>
-		
-						<div class="integrations__about">
-							<div class="integrations__aboutIcon">
-								<IconApi size={35} stroke={1.5} />
-							</div>
-		
-							<div>
-								<h6>OpenAPI 3.1 Specifications</h6>
-								<p>Generate wrappers on the fly as our documentation is built on <Button type="link" url="https://raw.githubusercontent.com/jikan-me/jikan-rest/master/storage/api-docs/api-docs.json" urlTarget="blank">OpenAPI 3.1</Button> Specs.</p>
-							</div>
-						</div>
-					</div>
 		
 					<Divider type="line"></Divider>
 		
 					<Button url="https://github.com/jikan-me/website/edit/master/src/data/integrations.js" type="secondary-outline" size="full-width">
 						<IconCirclePlus size={20} stroke={1.5} />
-						Add your integration here
+						Request a integration
 					</Button>
 				</div>
 		
