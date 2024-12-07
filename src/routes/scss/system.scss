@@ -9,7 +9,7 @@
   --dark-background-button-primary-default: var(--primary-500);
   --dark-background-button-primary-hover: var(--primary-600);
   --dark-background-language-dotnet: #491756;
-  --dark-primary-900: #4B0082; // Dark purple
+  --dark-primary-900: #1A0033; // Darkest purple
   --dark-primary-800: rgba(75, 0, 130, 0.8); // Dark purple fade
   --dark-primary-700: rgba(75, 0, 130, 0.6); // Dark purple fade
   --dark-primary-600: rgba(75, 0, 130, 0.4); // Dark purple fade
@@ -87,7 +87,7 @@
 }
 
 @mixin typeBodyMono($bold: false) {
-  font-family: 'Archivo', monospace;
+  font-family: 'Archivo', sans-serif; // Changed to use Archivo only
 
   @if($bold) {
     font-weight: bold;
