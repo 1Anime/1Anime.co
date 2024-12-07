@@ -1,5 +1,4 @@
 <script>
-import Typewriter from "svelte-typewriter";
 import Chip from "./Chip.svelte";
 import AnimeCard from "./AnimeCard.svelte";
 import {onMount} from "svelte";
@@ -7,7 +6,6 @@ import math from "../helpers/math.js";
 import funcs from "../helpers/funcs.js";
 import ui from "../helpers/ui.js";
 import {fly} from "svelte/transition";
-
 
 let requests = [
     "https://api.jikan.moe/v4/anime?q=bleach&sfw",
@@ -43,7 +41,9 @@ onMount(() => {
     requests.push("https://api.jikan.moe/v4/schedules/"+today+"?sfw");
 
     requests = funcs.shuffle(requests);
+    apiCall(); // Call the API when the component mounts
 })
+
 async function apiCall() {
     if (intervalLock) {
         return;
@@ -88,20 +88,6 @@ function getFakeUrl(url) {
     return `1anime.one${pathWithoutV4}`;
 }
 </script>
-
-<div class="request">
-    <Chip type="request" size="small">Speed Test</Chip>
-    <Typewriter
-            mode="loopOnce"
-            keepCursorOnFinish={true}
-            interval={20}
-            unwriteInterval={5}
-            on:done={apiCall}
-    ><code></code></Typewriter>
-    {#if showDuration && requestDuration > 0}
-        <span transition:fly={{delay:0,duration:150,x:-32}} class="duration">{requestDuration}ms</span>
-    {/if}
-</div>
 
 <div class="cards">
     {#if !showCards}
