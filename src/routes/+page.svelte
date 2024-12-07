@@ -138,6 +138,40 @@
 <section class="featuresWrapper" id="features">
 	<div class="features">
 		<div class="left">
+			<div class="open-source">
+				<div class="type--group-heading-and-content">
+					<h2>Free & No ads</h2>
+					<h3 style="display: flex">— all powered by our <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
+					<p>Making the best yet, community-managed Anime and Manga platform. without ads, for free.</p>
+				</div>
+				<Button type="primary" url="https://github.com/jikan-me" urlTarget="_blank">
+					<IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
+					Visit GitHub organization
+				</Button>
+			</div>
+			<div
+				class="showcaseCover margin--top-64"
+				style="background-image: url({ShowcaseBackground})"
+			>
+				<div class="overlay">
+					<div class="type--group-heading-and-content">
+						<h2>⚡ Powered</h2>
+						<p>Jikan was launched in late 2017 and has grown rapidly since. It is now handling over 25+ million requests weekly, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using Jikan and even <strong>add your own</strong> there!</p>
+					</div>
+					<ButtonGroup>
+						<Button url="/showcase" type="secondary-outline" size="full-width">
+							View all apps
+							<IconArrowNarrowRight size={20} stroke={1.5} />
+						</Button>
+						<Button url="https://github.com/jikan-me/website/edit/master/src/data/showcase.js" type="tertiary" size="full-width">
+							<IconCirclePlus size={20} stroke={1.5} />
+							Add my project
+						</Button>
+					</ButtonGroup>
+				</div>
+			</div>
+		</div>
+		<div class="right">
 			<div class="type--group-heading-and-content">
 				<h2>Why Choose 1Anime?</h2>
 				<p>1Anime is designed for anime lovers who want a free and ad-free experience.</p>
