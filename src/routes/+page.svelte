@@ -156,7 +156,7 @@
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
 					<h2>Free & No Ads</h2>
-					<h3 style="display: flex">— all with your help and our <Button type="link-heading" urlTarget="_blank" url="https://choosealicense.com/licenses/mit/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
+					<h3 style="display: flex">— all with your help and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
 					<p>Focus on enjoying your favorite shows while we keep the streams rolling. With nearly limitless access, you have the freedom to watch without restrictions.</p>
 				</div>
 			</div>
@@ -168,7 +168,7 @@
 				<div class="overlay">
 					<div class="type--group-heading-and-content">
 						<h2>⚡ Powered by 1Anime Community</h2>
-						<p>1Anime was launched in March 2024 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.<br><br> A public showcase is available where you can view apps and projects using 1Anime and even <strong>add your own</strong> there!</p>
+						<p>1Anime was launched in March 2024 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.</p>
 					</div>
 				</div>
 			</div>

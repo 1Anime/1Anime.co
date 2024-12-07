@@ -59,7 +59,6 @@ async function apiCall() {
     entries = await ((await fetch(requestUrl)).json())
     requestDuration = Math.ceil(performance.now() - startTime);
     showDuration = true;
-    // console.log('got '+entries.data.length+' entries');
     entries = entries.data.slice(0, 6)
 
     isCardTransitioning = true;
@@ -68,15 +67,6 @@ async function apiCall() {
     await ui.sleep(100)
     isCardTransitioning = false;
 
-    // pauseInterval = setInterval(() => {
-    // 	console.log('waiting...')
-    // 	intervalLock = false;
-    // 	clearInterval(pauseInterval)
-    // }, 5000);
-    //
-    // if (intervalLock) {
-    // 	return;
-    // }
     intervalLock = true;
     requestInterval = setInterval(() => {
         showDuration = false;
@@ -90,7 +80,12 @@ function updateRequestUrl() {
     requestIndex++;
     requestIndex = requestIndex >= requests.length ? 0 : requestIndex;
     requestUrl = requests[requestIndex];
-    // console.log(requestUrl)
+}
+
+function getFakeUrl(url) {
+    const urlParts = new URL(url);
+    const pathWithoutV4 = urlParts.pathname.replace('/v4', '');
+    return `1anime.one${pathWithoutV4}`;
 }
 </script>
 
@@ -102,9 +97,9 @@ function updateRequestUrl() {
             interval={20}
             unwriteInterval={5}
             on:done={apiCall}
-    ><a href={requestUrl} target="_blank"><code>{requestUrl}</code></a></Typewriter>
+    ><code>{getFakeUrl(requestUrl)}</code></Typewriter>
     {#if showDuration && requestDuration > 0}
-        <span transition:fly={{delay:0,duration:150,x:-32}} class="duration">Response Time: {requestDuration}ms</span>
+        <span transition:fly={{delay:0,duration:150,x:-32}} class="duration">{requestDuration}ms</span>
     {/if}
 </div>
 

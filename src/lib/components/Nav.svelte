@@ -2,7 +2,6 @@
 import Button from "./Button.svelte";
 import {IconArrowDownLeft, IconBrandDiscord, IconBrandGithub, IconBrandPatreon, IconMenu, IconX} from "@tabler/icons-svelte";
 import Chip from "./Chip.svelte";
-import Logo from "$lib/images/jikan.svg";
 
 let scrollY;
 let mobileNavToggled = false;
@@ -19,7 +18,7 @@ function toggleMobileNav() {
 <div id="nav" class="navWrapper {isMinimized}">
     <nav class="nav">
         <div class="nav__top">
-            <a href="/" class="logo"><img src={Logo} alt="1Anime Logo"/></a>
+            <a href="/" class="logo"><img src="https://1anime.co/logo.svg" alt="1Anime Logo"/></a>
             <div id="mobile-nav">
                 <Button type="nav-trigger" size="small"
                     callback={toggleMobileNav}
@@ -38,22 +37,20 @@ function toggleMobileNav() {
                     <Button
                         type="nav-link"
                         urlTarget="_blank"
-                        url="https://docs.api.jikan.moe/"
+                        url="https://1anime.one"
                     >
                         <IconArrowDownLeft class="external-link" size={20} stroke={1.5} />
-                        Documentation
-                        <Chip type="outline" size="small">v4</Chip>
+                        Watch Now
+                        <Chip type="outline" size="small">v2.0</Chip>
                     </Button>
                     <Button type="nav-link" url="/#features">Features</Button>
-                    <Button type="nav-link" url="/#how-it-works">How it works</Button>
                     <Button type="nav-link" url="/#integrations">Integrations</Button>
-                    <Button type="nav-link" url="/showcase">Showcase</Button>
                 </div>
 
                 <div class="links">
-                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://patreon.com/jikan"><IconBrandPatreon size={20} stroke={1.5} /></Button>
-                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="http://discord.jikan.moe/"><IconBrandDiscord size={20} stroke={1.5} /></Button>
-                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://github.com/jikan-me"><IconBrandGithub size={20} stroke={1.5} /></Button>
+                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://1anime.info/docs/contribute"><IconBrandPatreon size={20} stroke={1.5} /></Button>
+                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="http://discord.gg/1anime"><IconBrandDiscord size={20} stroke={1.5} /></Button>
+                    <Button type="nav-icon-link" size="small" urlTarget="_blank" url="https://github.com/1Anime"><IconBrandGithub size={20} stroke={1.5} /></Button>
                 </div>
             </div>
         </div>

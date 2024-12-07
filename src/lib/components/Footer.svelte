@@ -1,7 +1,6 @@
 <script>
 import Button from "./Button.svelte";
 import {IconArrowDownLeft, IconGitFork} from "@tabler/icons-svelte";
-import Logo from "$lib/images/jikan.svg";
 import MalHeartBeat from "./MalHeartBeat.svelte";
 </script>
 
@@ -9,8 +8,8 @@ import MalHeartBeat from "./MalHeartBeat.svelte";
     <div class="footer__body">
         <div class="footer__content">
             <div class="footer__brand">
-                <a href="https://jikan.moe" class="logo"><img src={Logo} alt="1Anime Logo"/></a>
-                <p>Unofficial MyAnimeList API</p>
+                <a href="https://1anime.co" class="logo"><img src="https://1anime.co/logo.svg" alt="1Anime Logo"/></a>
+                <p>Watch Anime and Read Manga without ads for FREE.</p>
 
                 <MalHeartBeat />
             </div>
@@ -20,25 +19,17 @@ import MalHeartBeat from "./MalHeartBeat.svelte";
                     <strong>General</strong>
                     <ul>
                         <li><Button url="/#features" type="link">Features</Button></li>
-                        <li><Button url="/showcase" type="link">Showcase</Button></li>
                         <li><Button url="/#integrations" type="link">Integrations</Button></li>
-                    </ul>
-                </div>
-                <div class="footer__links">
-                    <strong>Developers</strong>
-                    <ul>
-                        <li><Button url="https://docs.api.jikan.moe/" urlTarget="blank" type="link"><IconArrowDownLeft class="external-link" size={20} stroke={1.5} /> Documentation</Button></li>
-                        <li><Button urlTarget="blank" type="link"><IconArrowDownLeft class="external-link" size={20} stroke={1.5} /> Status</Button></li>
-                        <li><Button url="#" type="link">Terms of Use</Button></li>
+                        <li><Button url="https://1anime.info/privacy" type="link">Privacy Policy</Button></li>
                     </ul>
                 </div>
                 <div class="footer__links">
                     <strong>Community</strong>
                     <ul>
-                        <li><Button url="http://discord.jikan.moe/" urlTarget="_blank" type="link">Discord</Button></li>
-                        <li><Button url="https://github.com/jikan-me" urlTarget="_blank" type="link">GitHub Org</Button></li>
-                        <li><Button url="https://patreon.com/jikan" urlTarget="_blank" type="link">Patreon</Button></li>
-                        <li><Button url="https://www.reddit.com/r/jikan/" urlTarget="_blank" type="link">Reddit</Button></li>
+                        <li><Button url="http://discord.gg/1anime" urlTarget="_blank" type="link">Discord</Button></li>
+                        <li><Button url="https://github.com/1Anime" urlTarget="_blank" type="link">GitHub</Button></li>
+                        <li><Button url="https://1anime.info/docs/contribute" urlTarget="_blank" type="link">Donate</Button></li>
+                        <li><Button url="https://www.reddit.com/r/1animeapp/" urlTarget="_blank" type="link">Reddit</Button></li>
                     </ul>
                 </div>
             </div>
@@ -48,8 +39,8 @@ import MalHeartBeat from "./MalHeartBeat.svelte";
 
 <div class="copyright">
     <div class="copyright__content">
-        <span>2017 - 2024 Jikan.moe</span>
-        <span>This website is open-source. <Button type="link" size="small" urlTarget="_blank" url="https://github.com/jikan-me/website"><IconGitFork size={16} stroke={1.5} />Help make it better</Button>.</span>
+        <span>2024-2025 1Anime</span>
+        <span>To God Be The Glory. <Button type="link" size="small" urlTarget="_blank" url="https://github.com/jikan-me/website"><IconGitFork size={16} stroke={1.5} />Website inspired from Jikan.moe</Button>.</span>
     </div>
 </div>
 

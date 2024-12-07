@@ -3,17 +3,24 @@
     import {IconArrowDownLeft, IconHelp, IconInfoCircle} from '@tabler/icons-svelte';
     import Divider from "./Divider.svelte";
     import {onMount} from "svelte";
-    import { formatRelative, subDays } from "date-fns";
 
     $: health = "healthy"
     $: lastEvent = null;
 
     onMount(() => {
-        fetch('https://api.jikan.moe/v4')
-            .then(data => data.json())
-            .then((data) => {
-                health = data.myanimelist_heartbeat.status.toLowerCase();
-                lastEvent = data.last_downtime;
+        fetch('https://1anime.com') // Updated to 1Anime site
+            .then(response => {
+                if (response.status === 200) {
+                    health = "Healthy"; // Set health to healthy if status is 200
+                } else if (response.status === 500) {
+                    health = "Down"; // Set health to down if status is 500
+                } else {
+                    health = "Error"; // Set health to error for other statuses
+                }
+                lastEvent = null; // No last event since no data is available
+            })
+            .catch(() => {
+                health = "Error"; // Set health to error if fetch fails
             });
     })
 </script>
@@ -22,10 +29,10 @@
 <div class="heartbeat">
     <p>
         <span use:tooltip={{
-            content: "MAL Heartbeat monitors connections between the Jikan REST API and MyAnimeList.net. Requests to MyAnimeList.net that fail contribute towards a negative health event.",
+            content: "Heartbeat monitors connections between the 1Anime site and our API. Requests that fail contribute towards a negative health event.",
             animation: 'slide'
         }}><IconHelp size={20} stroke={1.5} style="margin-top: 6px;"/></span>
-        <strong>MAL HeartBeat</strong>
+        <strong>1Anime HeartBeat</strong>
     </p>
 
     <small>Heartbeat is <span class="heartbeat__health heartbeat__health--{health}">{health}</span></small>
@@ -65,6 +72,12 @@
 
     &--healthy {
       color: rgba(0, 255, 41, 1);
+    }
+    &--down {
+      color: rgba(255, 0, 0, 1);
+    }
+    &--error {
+      color: rgba(255, 165, 0, 1);
     }
   }
 }
