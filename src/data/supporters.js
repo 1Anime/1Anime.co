@@ -28,7 +28,6 @@ export default  {
         "harundemisoski",
         "DBCooper",
         "Louis",
-        "GollyGriffin",
         "Gin",
         "NBZKD",
         "Rimu",

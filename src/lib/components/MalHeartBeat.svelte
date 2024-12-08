@@ -8,23 +8,21 @@
     $: lastEvent = null;
 
     onMount(() => {
-        fetch('https://1anime.one') // Updated to 1Anime site
-            .then(response => {
-                if (response.status === 200) {
-                    health = "Healthy"; // Set health to healthy if status is 200
-                } else if (response.status === 500) {
-                    health = "Down"; // Set health to down if status is 500
+        fetch('https://1anime.one/api/v2/etc/status') // Updated to 1Anime site
+            .then(response => response.json()) // Parse the JSON response
+            .then(data => {
+                if (data.status === "ok") {
+                    health = "healthy"; // Set health to healthy if status is "ok"
                 } else {
-                    health = "Error"; // Set health to error for other statuses
+                    health = "down"; // Set health to error for any other status
                 }
                 lastEvent = null; // No last event since no data is available
             })
             .catch(() => {
-                health = "Error"; // Set health to error if fetch fails
+                health = "error"; // Set health to error if fetch fails
             });
     })
 </script>
-
 
 <div class="heartbeat">
     <p>
