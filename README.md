@@ -1,76 +1,25 @@
-[![Jikan](https://i.imgur.com/GysfKrb.png)](#jikan---unofficial-myanimelistnet-php-api)
+## 1anime.co Landing Page (Forked from Jikan.moe)
 
-# Jikan - Unofficial MyAnimeList.net PHP API
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4c10e2c0-4860-48f5-9eae-171bce417890/deploy-status)](https://app.netlify.com/sites/hardcore-archimedes-6ebd1f/deploys) [![Discord Server](https://img.shields.io/discord/460491088004907029.svg?style=flat&logo=discord)](http://discord.jikan.moe)
+**A Streamlined Gateway to the Anime Universe**
 
-Jikan is an API for [MyAnimeList.net](https://myanimelist.net). You can find more details [here](https://github.com/jikan-me/jikan).
+This repository houses the foundational code for the 1anime.co landing page, designed to become a premier hub for anime exploration. Inspired by the Jikan.moe project (an unofficial MyAnimeList.net PHP API), 1anime.co aspires to deliver a captivating and user-centric anime experience.
 
-This repository represents Jikan's website - [Jikan.moe](https://jikan.moe). Please feel free to contribute and help improve it!
+**Building on a Solid Foundation**
 
+Leveraging the well-established architecture of Jikan.moe, the 1anime.co landing page inherits its efficiency and functionality. This shared foundation, likely built with SvelteKit, fosters a streamlined development process and ensures a familiar, user-friendly experience. However, the focus here shifts towards crafting a compelling landing page that draws visitors in and ignites their passion for anime.
 
-# Contributing
-This project is built using [SvelteKit](https://kit.svelte.dev/).
+**Prioritizing User Experience**
 
-Pre-reqs: Node 18+, NPM
+The code within this repository meticulously prioritizes user experience. Every aspect, from the intuitive layout and navigation to the curated information presented, is meticulously crafted to enable a seamless and engaging exploration of the anime world. Whether catering to seasoned anime veterans or curious newcomers, the 1anime.co landing page aims to be the gateway to a world of limitless entertainment.
 
-1. Git clone & cd into project directory
-2. `npm install`
-3. Start the dev environment 
+**Collaboration is Our Strength**
 
-```bash
-npm run dev
+While direct user editing of the landing page might not be available, fostering a collaborative development environment remains crucial. We encourage your contributions to the ongoing evolution of 1anime.co through the following methods:
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+* **Issue Reporting:** Encountered a bug or have a suggestion for improvement? Create an issue on this repository. Your feedback is instrumental in ensuring the landing page functions flawlessly.
+* **Feature Proposals:** Envision a feature that would elevate the user experience? Share your ideas as an issue or a pull request. By working together, we can transform 1anime.co into the ultimate anime discovery platform.
+* **Design Expertise:** Possess design mastery? Submit mockups or propose design enhancements to create a visually stunning and engaging user interface.
 
-## General Contributing Guidelines
+**A Vision for the Future**
 
-When making changes, please fork the project and work on that.
-
-### Adding an integration
-
-1. Add a new JSON object entry in https://github.com/jikan-me/website/blob/master/src/data/integrations.js
-2. Ensure that you're adding it to the end of the list
-3. Validate the JSON and create a commit
-4. Create a PR
-
-#### Important notes
-
-1. Add the language or framework you've built the project with in **all lowercase** in `language`
-2. `supportsV3`, `supportsV4`; These define which version of the REST API your integration supports. V3 is a backwards notifier for some of existing wrappers.
-3. `url` is the repository link of your integration
-
-
-### Adding a showcase item
-
-1. Add a new JSON object entry in https://github.com/jikan-me/website/blob/master/src/data/showcase.js
-2. Ensure that you're adding it to the end of the list
-3. Validate the JSON and create a commit
-4. Create a PR
-
-#### Important notes
-
-1. Ensure that your summary is brief
-2. Host your preview images on IMGUR or GitHub but please optimize the size to ensure they're not more than 300KB
-3. The `imageUrl` has to be a direct link to the image (ending with the extension).
-4. Ensure that the `url` you are providing is accurate and up. This can be the URl to your app's website, install/download or repository page.
-
-### Modifying the website
-
-We appreciate all the help in improving the experience of the site. Feel free to create a PR.
-
-If there's something you can help with on [our roadmap](https://github.com/orgs/jikan-me/projects/5), that'd be very helpful as well.
-
-
-#### Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-Note: You do not have to build a production version to contribute. Comitting to the repository lets Netlify handle that and deployment for you.
+This forked repository serves as the launchpad for the 1anime.co landing page. As the project unfolds, we envision integrating additional functionalities. Imagine personalized recommendations, user accounts that empower watchlist management, or even a thriving community forum fostering lively discussions among anime enthusiasts. Through continuous development and collaborative efforts, we can transform 1anime.co into a comprehensive and dynamic anime hub, catering to the diverse needs of the anime community.
