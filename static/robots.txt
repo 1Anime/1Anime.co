@@ -1,3 +1,11 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /  # Disallow all AI chatbots and crawlers
+User-agent: Googlebot
+Allow: /  # Allow Google
+User-agent: Bingbot
+Allow: /  # Allow Bing
+User-agent: Facebookbot
+Allow: /  # Allow Facebook
+User-agent: *
+Disallow: /  # Disallow all other AI chatbots

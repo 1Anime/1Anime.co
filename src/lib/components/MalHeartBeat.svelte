@@ -33,7 +33,7 @@
             content: "Heartbeat monitors connections between the 1Anime site and our API. Requests that fail contribute towards a negative health event.",
             animation: 'slide'
         }}><IconHelp size={20} stroke={1.5} style="margin-top: 6px;"/></span>
-        <strong>1Anime HeartBeat</strong>
+        <strong>1Anime Status</strong>
     </p>
 
     <small>Heartbeat is <span class="heartbeat__health heartbeat__health--{health}">{health}</span></small>

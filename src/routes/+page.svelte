@@ -40,34 +40,32 @@
 </script>
 
 <svelte:head>
-	<title>1Anime - Your Anime and Manga Streaming App</title>
+	<title>1Anime - Your Ultimate Anime and Manga Streaming Platform</title>
 
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>1Anime - Your Anime and Manga Streaming App</title>
 
 	<!-- SEO/OGP -->
 	<meta name="author" content="@1AnimeApp">
-	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2024, 2025, characters, episodes, series">
-	<meta name="description" content="1Anime is your go-to platform for streaming anime and manga online.">
+	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2024, 2025, characters, episodes, series, anime streaming, manga streaming">
+	<meta name="description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
 	<meta name="image" content="https://i.imgur.com/eUveNoj.png">
-	<meta itemprop="name" content="1Anime - Your Anime and Manga Streaming App">
-	<meta itemprop="description" content="1Anime is your go-to platform for streaming anime and manga online.">
+	<meta itemprop="name" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
+	<meta itemprop="description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
 	<meta itemprop="image" content="https://i.imgur.com/eUveNoj.png">
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:title" content="1Anime - Your Anime and Manga Streaming App">
-	<meta name="twitter:description" content="1Anime is your go-to platform for streaming anime and manga online.">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
+	<meta name="twitter:description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
 	<meta name="twitter:creator" content="@1AnimeApp">
 	<meta name="twitter:site" content="@1AnimeApp">
 	<meta name="twitter:image:src" content="https://i.imgur.com/eUveNoj.png">
 	<meta name="twitter:image:alt" content="1Anime brand image">
-	<meta name="twitter:card" content="summary_large_image">
-	<meta name="og:title" content="1Anime - Your Anime and Manga Streaming App">
-	<meta name="og:description" content="1Anime is your go-to platform for streaming anime and manga online.">
+	<meta name="og:title" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
+	<meta name="og:description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
 	<meta name="og:image" content="https://i.imgur.com/eUveNoj.png">
 	<meta name="og:url" content="https://1anime.com">
-	<meta name="og:site_name" content="1Anime - Your Anime and Manga Streaming App">
+	<meta name="og:site_name" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
 	<meta name="og:locale" content="en_US">
 	<meta name="og:type" content="website">
 
@@ -89,31 +87,31 @@
 		<div class="left">
 			<InlineBanner
 					type="patreon"
-					url="https://patreon.com/1anime"
-			>We rely on you! Support us by donating!</InlineBanner>
+					url="https://1anime.info/docs/contribute"
+			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<h1>1Anime</h1>
-				<p>1Anime is your Ad-free & free platform for streaming the latest anime and manga.</p>
+				<h1>Welcome to 1Anime</h1>
+				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
 
 			<BasicInfoDisplayGrouped>
 				<BasicInfoDisplay
-					description="Watch without ads."
+					description="Enjoy uninterrupted viewing."
 				>
 					<IconStar size={20} stroke={1.5} />
-					No Ads
+					Ad-Free Experience
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
 					url="#integrations"
 					urlTarget="_self"
-					description="Explore various integrations available for 1Anime."
+					description="Discover various integrations available for 1Anime."
 				>
 					<IconPackages size={20} stroke={1.5} />
 					Integrations
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					description="No account needed. Just start watching your favorite shows."
+					description="No account needed. Start watching your favorite shows instantly."
 				>
 					<IconKeyOff size={20} stroke={1.5} />
 					No Account Required
@@ -127,10 +125,10 @@
 					Community Support
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
-					description="Lots of anime and manga available!"
+					description="A vast library of anime and manga awaits you!"
 				>
 					<IconChartLine size={20} stroke={1.5} />
-					Large Library
+					Extensive Library
 				</BasicInfoDisplay>
 			</BasicInfoDisplayGrouped>
 
@@ -139,7 +137,7 @@
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="20" height="20">
 					  <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
 					</svg>
-					Watch now
+					Start Watching Now
 				</Button>
 			</ButtonGroup>
 		</div>
@@ -157,9 +155,9 @@
 		<div class="left">
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
-					<h2>Free & No Ads</h2>
-					<h3 style="display: flex">— all with your help and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
-					<p>Our platform is community-driven, which we listen to your suggestions, and without your help, we wouldn't be alive today. Donate or help us out!</p>
+					<h2>Free & Ad-Free</h2>
+					<h3 style="display: flex">— all thanks to your support and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
+					<p>Our platform thrives on community support. We value your suggestions, and without your help, we wouldn't be here today. Consider donating or contributing!</p>
 				</div>
 			</div>
 
@@ -169,8 +167,8 @@
 			>
 				<div class="overlay">
 					<div class="type--group-heading-and-content">
-						<h2>Made with 💖 by 1Anime Community</h2>
-						<p>1Anime was launched in March 2024 and has quickly become a favorite for anime fans. Enjoy a vast library of shows, <strong>free of cost</strong>.</p>
+						<h2>Crafted with 💖 by the 1Anime Community</h2>
+						<p>Launched in March 2024, 1Anime has quickly become a favorite among anime fans. Enjoy a vast library of shows, <strong>completely free</strong>.</p>
 					</div>
 				</div>
 			</div>
@@ -179,15 +177,15 @@
 		<div class="right">
 			<div class="type--group-heading-and-content">
 				<h2>Features</h2>
-				<p>1Anime offers a wide range of anime titles with more features coming soon.</p>
+				<p>1Anime offers a diverse range of anime titles, with more features on the way.</p>
 			</div>
 
 			<Banner type="info" size="small">
-				1Anime is ad-free, and community-driven. so enjoy using 1Anime!.
+				1Anime is ad-free and community-driven. Enjoy your experience with us!
 			</Banner>
 
 			<div>
-				<h3>Available</h3>
+				<h3>Available Features</h3>
 				<BasicInfoDisplayGrouped>
 					{#each features.available as feature}
 						<BasicInfoDisplay
@@ -201,7 +199,7 @@
 			</div>
 
 			<div>
-				<h3>Upcoming</h3>
+				<h3>Upcoming Features</h3>
 				<BasicInfoDisplayGrouped>
 				{#each features.upcoming as feature}
 					<BasicInfoDisplay
@@ -223,7 +221,7 @@
 	<div class="integrations">
 		<div class="left">
 			<div class="type--group-heading-and-content">
-				<h2>Seamless integration with the platforms you use and love.</h2>
+				<h2>Seamless Integrations with Your Favorite Platforms</h2>
 			</div>
 
 			<div class="integrations__body margin--top-64">
@@ -233,8 +231,8 @@
 					</div>
 
 					<div>
-						<h6>By the community, for the community</h6>
-						<p>Thanks to avid contributors, there are a multitude of integrations available so you can easily use it with your favorite platforms.</p>
+						<h6>By the Community, For the Community</h6>
+						<p>Thanks to our dedicated contributors, we offer a multitude of integrations to enhance your experience with your favorite platforms.</p>
 					</div>
 				</div>
 			</div>
@@ -243,7 +241,7 @@
 
 			<Button url="#" type="secondary-outline" size="full-width">
 				<IconCirclePlus size={20} stroke={1.5} />
-				Request a new integration
+				Request a New Integration
 			</Button>
 		</div>
 
