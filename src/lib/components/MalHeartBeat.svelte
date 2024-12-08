@@ -8,7 +8,10 @@
     $: lastEvent = null;
 
     onMount(() => {
-        fetch('https://1anime.one/api/v2/etc/status') // Updated to 1Anime site
+        fetch('https://1anime.one/api/v2/etc/status', {
+            method: 'GET',
+            mode: 'no-cors' // Disable CORS
+        }) 
             .then(response => response.json()) // Parse the JSON response
             .then(data => {
                 if (data.status === "ok") {
