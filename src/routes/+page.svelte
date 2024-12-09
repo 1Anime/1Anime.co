@@ -91,7 +91,7 @@
 			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<h1>Welcome to 1Anime</h1>
+				<h1>1Anime</h1>
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
 
@@ -100,7 +100,7 @@
 					description="Enjoy uninterrupted viewing."
 				>
 					<IconStar size={20} stroke={1.5} />
-					Ad-Free Experience
+					Ad-Free
 				</BasicInfoDisplay>
 				<BasicInfoDisplay
 					url="#integrations"
