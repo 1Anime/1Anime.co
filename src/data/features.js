@@ -80,13 +80,6 @@ export default {
             description: "Producer metadata and listing for 1Anime content"
         },
         {
-            icon: IconBook2,
-            highlight: false,
-            onVersion: 2,
-            label: "Magazines",
-            description: "Magazine metadata and listing related to 1Anime"
-        },
-        {
             icon: IconCarouselHorizontal,
             highlight: true,
             onVersion: 2,
@@ -113,13 +106,6 @@ export default {
             onVersion: 2,
             label: "Watch",
             description: "Latest and most popular Anime promotional and episode releases on 1Anime"
-        },
-        {
-            icon: IconUsersGroup,
-            highlight: true,
-            onVersion: 2,
-            label: "Clubs",
-            description: "Publicly available club data on 1Anime"
         },
         {
             icon: IconArrowsRandom,
