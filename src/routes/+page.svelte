@@ -29,7 +29,6 @@
 	import IntegrationCard from "../lib/components/IntegrationCard.svelte";
 	import {tooltip} from "@svelte-plugins/tooltips"
 	import {onMount} from "svelte";
-	import Typewriter from "svelte-typewriter";
 
 	let github = {};
 	onMount(async() => {
@@ -45,7 +44,7 @@
 		currentIndex = (currentIndex + 1) % titles.length;
 	}
 
-	setInterval(changeTitle, 4000); // Change title every 3 seconds
+	setInterval(changeTitle, 3000); // Change title every 3 seconds
 
 </script>
 
@@ -101,7 +100,7 @@
 			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<Typewriter text={titles[currentIndex]} style="background: linear-gradient(90deg, #ff0080, #ff8c00, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" />
+				<h1 style="background: linear-gradient(90deg, #ff0080, #ff8c00, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: fadeIn 1s ease-in-out;">{titles[currentIndex]}</h1>
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
 
