@@ -29,6 +29,7 @@
 	import IntegrationCard from "../lib/components/IntegrationCard.svelte";
 	import {tooltip} from "@svelte-plugins/tooltips"
 	import {onMount} from "svelte";
+	import Typewriter from "svelte-typewriter";
 
 	let github = {};
 	onMount(async() => {
@@ -39,14 +40,12 @@
 
 	let titles = ["1Anime", "Ad-free", "Unlimited Anime"];
 	let currentIndex = 0;
-	let currentTitle = titles[currentIndex];
 
 	function changeTitle() {
 		currentIndex = (currentIndex + 1) % titles.length;
-		currentTitle = titles[currentIndex];
 	}
 
-	setInterval(changeTitle, 3000); // Change title every 3 seconds
+	setInterval(changeTitle, 4000); // Change title every 3 seconds
 
 </script>
 
@@ -102,7 +101,7 @@
 			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<h1 style="background: linear-gradient(90deg, #ff0080, #ff8c00, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: typing 2s steps(10, end) infinite;">{currentTitle}</h1>
+				<Typewriter text={titles[currentIndex]} style="background: linear-gradient(90deg, #ff0080, #ff8c00, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent;" />
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
 
