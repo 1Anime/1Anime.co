@@ -165,7 +165,7 @@ Watch Now
 			<div class="open-source">
 				<div class="type--group-heading-and-content">
 					<h2>Free & Ad-Free</h2>
-					<h3 style="display: flex">— all thanks to your support and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
+					<h3 style="display: flex">— all thanks to your support and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={20} stroke={1.5} /> Community</Button></h3>
 					<p>Our platform thrives on community support. We value your suggestions, and without your help, we wouldn't be here today. Consider donating or contributing!</p>
 				</div>
 			</div>
