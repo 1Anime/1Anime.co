@@ -37,14 +37,14 @@
 
 	console.log(github)
 
-	let titles = ["1Anime", "Ad-free", "Unlimited Anime"];
+	let titles = ["1Anime", "Ad-free", "Unlimited Anime", "Read Manga", "All for FREE"];
 	let currentIndex = 0;
 
 	function changeTitle() {
 		currentIndex = (currentIndex + 1) % titles.length;
 	}
 
-	setInterval(changeTitle, 3000); // Change title every 3 seconds
+	setInterval(changeTitle, 5000); // Change title every 3 seconds
 
 </script>
 
@@ -100,7 +100,7 @@
 			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-				<h1 style="background: linear-gradient(90deg, #ff0080, #ff8c00, #ff0080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: fadeIn 1s ease-in-out;">{titles[currentIndex]}</h1>
+				<h1 style="background: linear-gradient(90deg, #0000ff, #800080); -webkit-background-clip: text; -webkit-text-fill-color: transparent; animation: fadeIn 1s ease-in-out;">{titles[currentIndex]}</h1>
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
 
