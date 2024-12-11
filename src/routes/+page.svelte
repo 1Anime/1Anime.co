@@ -172,7 +172,7 @@ Watch Now
 
 			<div
 				class="showcaseCover margin--top-64"
-				style="background-image: url(https://1anime.info/banner.jpg)"
+				style="background-image: url({ShowcaseBackground})"
 			>
 				<div class="overlay">
 					<div class="type--group-heading-and-content">
