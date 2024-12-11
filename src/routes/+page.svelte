@@ -158,3 +158,123 @@
 
 	<Marquee />
 </section>
+
+
+<section class="featuresWrapper" id="features">
+	<div class="features">
+		<div class="left">
+			<div class="open-source">
+				<div class="type--group-heading-and-content">
+					<h2>Free & Ad-Free</h2>
+					<h3 style="display: flex">— all thanks to your support and our <Button type="link-heading" urlTarget="_blank" url="https://1anime.info/community/"><IconArrowDownLeft class="external-link" size={32} stroke={1.5} />Community</Button></h3>
+					<p>Our platform thrives on community support. We value your suggestions, and without your help, we wouldn't be here today. Consider donating or contributing!</p>
+				</div>
+			</div>
+
+			<div
+				class="showcaseCover margin--top-64"
+				style="background-image: url({ShowcaseBackground})"
+			>
+				<div class="overlay">
+					<div class="type--group-heading-and-content">
+						<h2>Crafted with 💖 by the 1Anime Community</h2>
+						<p>Launched in March 2024, 1Anime has quickly become a favorite among anime fans. Enjoy a vast library of shows, <strong>completely free</strong>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="right">
+			<div class="type--group-heading-and-content">
+				<h2>Features</h2>
+				<p>1Anime offers a diverse range of anime titles, with more features on the way.</p>
+			</div>
+
+			<Banner type="info" size="small">
+				1Anime is ad-free and community-driven. Enjoy your experience with us!
+			</Banner>
+
+			<div>
+				<h3>Available Features</h3>
+				<BasicInfoDisplayGrouped>
+					{#each features.available as feature}
+						<BasicInfoDisplay
+							description={feature.description}
+						>
+							<svelte:component this={feature.icon} size={20} stroke={1.5} />
+							{feature.label}
+						</BasicInfoDisplay>
+					{/each}
+				</BasicInfoDisplayGrouped>
+			</div>
+
+			<div>
+				<h3>Upcoming Features</h3>
+				<BasicInfoDisplayGrouped>
+				{#each features.upcoming as feature}
+					<BasicInfoDisplay
+						disabled
+						description={feature.description}
+					>
+						<svelte:component this={feature.icon} size={20} stroke={1.5} />
+						<Chip type="outline" size="small">v{feature.onVersion}</Chip>
+						{feature.label}
+					</BasicInfoDisplay>
+				{/each}
+				</BasicInfoDisplayGrouped>
+
+			</div>
+		</div>
+	</div>
+</section>
+<section class="integrationsWrapper" id="integrations">
+	<div class="integrations">
+		<div class="left">
+			<div class="type--group-heading-and-content">
+				<h2>Seamless Integrations with Your Favorite Platforms</h2>
+			</div>
+
+			<div class="integrations__body margin--top-64">
+				<div class="integrations__about">
+					<div class="integrations__aboutIcon">
+						<IconHeartHandshake size={35} stroke={1.5} />
+					</div>
+
+					<div>
+						<h6>By the Community, For the Community</h6>
+						<p>Thanks to our dedicated contributors, we offer a multitude of integrations to enhance your experience with your favorite platforms.</p>
+					</div>
+				</div>
+			</div>
+
+			<Divider type="line"></Divider>
+
+			<Button url="#" type="secondary-outline" size="full-width">
+				<IconCirclePlus size={20} stroke={1.5} />
+				Request a New Integration
+			</Button>
+		</div>
+
+		<div class="right">
+			<div class="type--group-heading-and-content">
+				<h6>Available Integrations ({integrations.length})</h6>
+			</div>
+
+			<div class="integrations__listing">
+				<div class="integrations__fadeout integrations__fadeout--top"></div>
+				{#each integrations as integration}
+					<IntegrationCard
+							type={integration.type}
+							author={integration.author}
+							title={integration.title}
+							language={integration.language}
+							url={integration.url}
+					></IntegrationCard>
+				{/each}
+				<div class="integrations__fadeout integrations__fadeout--bottom"></div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<Footer />
