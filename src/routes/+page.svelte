@@ -59,20 +59,20 @@
 	<meta name="author" content="@1AnimeApp">
 	<meta name="keywords" content="1anime, anime, manga, streaming, free, watch, online, 2024, 2025, characters, episodes, series, anime streaming, manga streaming">
 	<meta name="description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
-	<meta name="image" content="https://i.imgur.com/eUveNoj.png">
+	<meta name="image" content="https://1anime.info/banner.jpg">
 	<meta itemprop="name" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
 	<meta itemprop="description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
-	<meta itemprop="image" content="https://i.imgur.com/eUveNoj.png">
+	<meta itemprop="image" content="https://1anime.info/banner.jpg">
 	<meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:title" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
 	<meta name="twitter:description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
 	<meta name="twitter:creator" content="@1AnimeApp">
 	<meta name="twitter:site" content="@1AnimeApp">
-	<meta name="twitter:image:src" content="https://i.imgur.com/eUveNoj.png">
+	<meta name="twitter:image:src" content="https://1anime.info/banner.jpg">
 	<meta name="twitter:image:alt" content="1Anime brand image">
 	<meta name="og:title" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
 	<meta name="og:description" content="1Anime is your ultimate platform for streaming anime and manga online without ads.">
-	<meta name="og:image" content="https://i.imgur.com/eUveNoj.png">
+	<meta name="og:image" content="https://1anime.info/banner.jpg">
 	<meta name="og:url" content="https://1anime.com">
 	<meta name="og:site_name" content="1Anime - Your Ultimate Anime and Manga Streaming Platform">
 	<meta name="og:locale" content="en_US">
