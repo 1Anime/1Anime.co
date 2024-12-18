@@ -92,17 +92,17 @@
 
 			<div class="type--group-heading-and-content">
 				<div class="card">	
+				<h2>AniManga</h2>
 				<div class="loader">
-						<h2>AniManga</h2>
-						<div class="words">
-							<span class="word"></span>
-							<span class="word">without ads</span>
-							<span class="word">with large library</span>
-							<span class="word">reliable support</span>
-							<span class="word">next-level integrations</span>
-							<span class="word">ALL FOR FREE</span>
-						</div>
+					<div class="words">
+						<span class="word"></span>
+						<span class="word">without ads</span>
+						<span class="word">with large library</span>
+						<span class="word">reliable support</span>
+						<span class="word">next-level integrations</span>
+						<span class="word">ALL FOR FREE</span>
 					</div>
+				</div>
 				</div>
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
@@ -285,8 +285,6 @@ Watch Now
 		padding: 1rem 2rem;
 	}
 	.loader {
-		color: rgb(124, 124, 124);
-		font-family: "Poppins", sans-serif;
 		font-weight: 500;
 		font-size: 25px;
 		-webkit-box-sizing: content-box;
