@@ -1,5 +1,4 @@
 <script>
-import JetbrainsLogo from "../images/jetbrains.svg";
 import Divider from "./Divider.svelte";
 import {onMount} from "svelte";
 import supporters from "../../data/supporters.js";
