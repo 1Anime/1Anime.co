@@ -92,8 +92,9 @@
 
 			<div class="type--group-heading-and-content">
 					<div class="loader">
-						<p>AniManga</p>
+						<h1>AniManga</h1>
 						<div class="words">
+							<span class="word"></span>
 							<span class="word">without ads</span>
 							<span class="word">with large library</span>
 							<span class="word">reliable support</span>
