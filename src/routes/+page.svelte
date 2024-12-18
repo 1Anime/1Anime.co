@@ -92,7 +92,7 @@
 
 			<div class="type--group-heading-and-content">
 				<div class="card">	
-				<h2>AniManga</h2>
+				<h2>Anime and Manga</h2>
 				<div class="loader">
 					<div class="words">
 						<span class="word"></span>
