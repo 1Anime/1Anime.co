@@ -1,6 +1,7 @@
 export default  {
     "sugoi_supporter": [
         "Vampelium",
+        "Lost Nova™️ - Rose",
         "Raf",
         "Im-Js-Doing-Me",
         "Goku",
