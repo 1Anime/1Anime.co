@@ -91,7 +91,8 @@
 			>Support us by Donating to keep 1Anime ad-free!</InlineBanner>
 
 			<div class="type--group-heading-and-content">
-					<div class="loader">
+				<div class="card">	
+				<div class="loader">
 						<h2>AniManga</h2>
 						<div class="words">
 							<span class="word"></span>
@@ -101,6 +102,7 @@
 							<span class="word">next-level integrations</span>
 							<span class="word">ALL FOR FREE</span>
 						</div>
+					</div>
 				</div>
 				<p>Your ad-free platform for streaming the latest anime and manga, completely free of charge.</p>
 			</div>
@@ -280,10 +282,7 @@ Watch Now
 
 <style>
 	.card {
-		--bg-color: #212121;
-		background-color: var(--bg-color);
 		padding: 1rem 2rem;
-		border-radius: 1.25rem;
 	}
 	.loader {
 		color: rgb(124, 124, 124);
