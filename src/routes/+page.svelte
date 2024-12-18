@@ -92,7 +92,7 @@
 
 			<div class="type--group-heading-and-content">
 					<div class="loader">
-						<h1>AniManga</h1>
+						<h3>AniManga</h3>
 						<div class="words">
 							<span class="word"></span>
 							<span class="word">without ads</span>
