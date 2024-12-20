@@ -157,8 +157,8 @@ Watch Now
 			<RequestExamples />
 		</div>
 	</main>
-
-	<Marquee />
+</section>
+<section>	<Marquee />
 </section>
 <section class="featuresWrapper" id="features">
 	<div class="features">
