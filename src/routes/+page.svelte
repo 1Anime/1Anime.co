@@ -99,7 +99,7 @@
 						<span class="word">without ads</span>
 						<span class="word">with large library</span>
 						<span class="word">reliable support</span>
-						<span class="word">next-level integrations</span>
+						<span class="word">with integrations</span>
 						<span class="word">ALL FOR FREE</span>
 					</div>
 				</div>
